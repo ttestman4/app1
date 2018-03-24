@@ -12,7 +12,7 @@
     "dev": "lite-server --baseDir='dist'",
     "devreload": "concurrently \"npm run build -- --watch\" \"npm run dev\"",
     "buildrelease": "npm run build -- --output-path docs --base-href app1",
-    "release": "angular-cli-ghpages --repo=https://ttestman4@github.com/ttestman4/app1.git --dir=\"docs\" --name=\"ttestman4\" --email=ttestman4@gmail.com"
+    "release": "angular-cli-ghpages --repo=https://$GITHUB_TOKEN@github.com/ttestman4/app1.git --dir=\"docs\" --name=\"ttestman4\" --email=ttestman4@gmail.com"
   },
   "private": true,
   "dependencies": {
