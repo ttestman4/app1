@@ -10,7 +10,8 @@
     "lint": "ng lint",
     "e2e": "ng e2e",
     "dev": "lite-server --baseDir='dist'",
-    "devreload": "concurrently \"npm run build -- --watch\" \"npm run dev\""
+    "devreload": "concurrently \"npm run build -- --watch\" \"npm run dev\"",
+    "publish":"npm run build -- --output-path docs --base-href "
   },
   "private": true,
   "dependencies": {
