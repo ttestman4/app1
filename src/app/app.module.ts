@@ -5,6 +5,7 @@ import { AppRoutingModule } from './app-routing.module';
 
 import { AppComponent } from './app.component';
 import { Feature1Module } from '../feature1/feature1.module';
+import { NonFunctionalModule } from './non-functional/non-functional.module';
 
 
 @NgModule({
@@ -14,7 +15,8 @@ import { Feature1Module } from '../feature1/feature1.module';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    Feature1Module
+    Feature1Module,
+    NonFunctionalModule
   ],
   providers: [],
   bootstrap: [AppComponent]
