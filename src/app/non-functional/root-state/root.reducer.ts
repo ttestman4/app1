@@ -6,7 +6,7 @@ import {
   MetaReducer,
   Action
 } from '@ngrx/store';
-import { environment } from '../../environments/environment';
+import { environment } from '../../../environments/environment';
 import * as fromActions from './root.actions';
 /**
  * storeFreeze prevents state from being mutated. When mutation occurs, an

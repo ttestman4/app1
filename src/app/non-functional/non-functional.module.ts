@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { RootStateModule } from '../root-state/root-state.module';
+import { RootStateModule } from './root-state/root-state.module';
 
 @NgModule({
   imports: [
