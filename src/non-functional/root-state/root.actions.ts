@@ -7,7 +7,7 @@ export enum RootActionTypes {
   }
 
 export class Add implements Action {
-    readonly type = RootActionTypes.Add;
+readonly type = RootActionTypes.Add;
 }
 
 export class Subtract implements Action {

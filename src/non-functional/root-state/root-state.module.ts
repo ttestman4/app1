@@ -4,6 +4,7 @@ import { StoreModule } from '@ngrx/store';
 import { reducers, metaReducers } from './root.reducer';
 import { StoreDevtoolsModule } from '@ngrx/store-devtools';
 import { environment } from '../../environments/environment';
+import { EffectsModule } from '@ngrx/effects';
 
 @NgModule({
   imports: [
@@ -27,7 +28,16 @@ import { environment } from '../../environments/environment';
      *
      * See: https://github.com/zalmoxisus/redux-devtools-extension
      */
-    !environment.stopStoreDebug ? StoreDevtoolsModule.instrument() : []
+    !environment.stopStoreDebug ? StoreDevtoolsModule.instrument() : [],
+
+    /**
+     * EffectsModule.forRoot() is imported once in the root module and
+     * sets up the effects class to be initialized immediately when the
+     * application starts.
+     *
+     * See: https://github.com/ngrx/platform/blob/master/docs/effects/api.md#forroot
+     */
+    EffectsModule.forRoot([]),
   ],
   declarations: []
 })
