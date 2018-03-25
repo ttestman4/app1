@@ -2,7 +2,7 @@ import { TestBed, async } from '@angular/core/testing';
 import { RouterTestingModule } from '@angular/router/testing';
 import { AppComponent } from './app.component';
 import { Feature1Module } from '../feature1/feature1.module';
-import { NonFunctionalModule } from './non-functional/non-functional.module';
+import { NonFunctionalModule } from '../non-functional/non-functional.module';
 
 describe('AppComponent', () => {
   beforeEach(async(() => {

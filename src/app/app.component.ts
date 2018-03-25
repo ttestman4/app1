@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { Store, select } from '@ngrx/store';
-import * as fromNonFunctional from './non-functional';
+import * as fromNonFunctional from '../non-functional';
 import { Observable } from 'rxjs/Observable';
 
 @Component({
