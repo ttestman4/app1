@@ -11,7 +11,7 @@
     "e2e": "ng e2e",
     "dev": "lite-server --baseDir='dist'",
     "devreload": "concurrently \"npm run build -- -sm true --watch\" \"npm run dev\" ",
-    "release": "npm run lint && npm run build -- --base-href app1 && npm run test -- --single-run --no-progress --browser=ChromeNoSandbox && npm run e2e -- --no-progress --config=protractor-ci.conf.js"
+    "release": "npm run lint && npm run build -- --base-href \"/app1/\" && npm run test -- --single-run --no-progress --browser=ChromeNoSandbox && npm run e2e -- --no-progress --config=protractor-ci.conf.js"
   },
   "private": true,
   "dependencies": {
