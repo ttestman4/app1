@@ -14,8 +14,8 @@ import { NonFunctionalModule } from '../non-functional/non-functional.module';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    Feature1Module,
     NonFunctionalModule,
+    Feature1Module,
   ],
   providers: [],
   bootstrap: [AppComponent]

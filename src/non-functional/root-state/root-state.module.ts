@@ -28,7 +28,7 @@ import { EffectsModule } from '@ngrx/effects';
      *
      * See: https://github.com/zalmoxisus/redux-devtools-extension
      */
-    !environment.stopStoreDebug ? StoreDevtoolsModule.instrument() : [],
+    !environment.stopStoreDebug ? StoreDevtoolsModule.instrument({maxAge: 25}) : [],
 
     /**
      * EffectsModule.forRoot() is imported once in the root module and

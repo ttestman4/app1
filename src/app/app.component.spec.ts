@@ -9,8 +9,8 @@ describe('AppComponent', () => {
     TestBed.configureTestingModule({
       imports: [
         RouterTestingModule,
+        NonFunctionalModule,
         Feature1Module,
-        NonFunctionalModule
       ],
       declarations: [
         AppComponent
