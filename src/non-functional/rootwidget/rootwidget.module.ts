@@ -13,7 +13,7 @@ export const childRoutes: Routes = [
 @NgModule({
   imports: [
     CommonModule,
-    RouterModule.forChild(childRoutes)
+    // RouterModule.forChild(childRoutes)
   ],
   declarations: [RootstateComponent],
   exports: [RootstateComponent]
