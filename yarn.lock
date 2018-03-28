@@ -219,8 +219,8 @@
     semver-intersect "^1.1.2"
 
 "@ttestman4/lib2@^1.0.1":
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/@ttestman4/lib2/-/lib2-1.0.1.tgz#7755dc07d4eadeae13b022bcbf6174edf240e0bd"
+  version "1.0.5"
+  resolved "https://registry.yarnpkg.com/@ttestman4/lib2/-/lib2-1.0.5.tgz#1a2aca4864b92de1a3b1deb10265956579e47ec2"
   dependencies:
     tslib "^1.7.1"
 
