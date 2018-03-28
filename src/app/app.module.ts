@@ -6,7 +6,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 // import { Feature1Module } from '../feature1/feature1.module';
 import { NonFunctionalModule } from '../non-functional/non-functional.module';
-import { Lib2Module } from '@ttestman4/lib2';
+// import { Feature2proxyModule } from './feature2proxy/feature2proxy.module';
 
 @NgModule({
   declarations: [
@@ -17,7 +17,8 @@ import { Lib2Module } from '@ttestman4/lib2';
     AppRoutingModule,
     NonFunctionalModule,
     // Feature1Module,
-    Lib2Module
+    // Lib2Module,
+    // Feature2proxyModule
   ],
   providers: [],
   bootstrap: [AppComponent]
