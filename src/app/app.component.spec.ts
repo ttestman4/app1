@@ -3,6 +3,7 @@ import { RouterTestingModule } from '@angular/router/testing';
 import { AppComponent } from './app.component';
 import { Feature1Module } from '../feature1/feature1.module';
 import { NonFunctionalModule } from '../non-functional/non-functional.module';
+import { Lib2Module } from '@ttestman4/lib2';
 
 describe('AppComponent', () => {
   beforeEach(async(() => {
@@ -11,6 +12,7 @@ describe('AppComponent', () => {
         RouterTestingModule,
         NonFunctionalModule,
         Feature1Module,
+        Lib2Module,
       ],
       declarations: [
         AppComponent
