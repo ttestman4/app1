@@ -218,6 +218,12 @@
     semver "^5.3.0"
     semver-intersect "^1.1.2"
 
+"@ttestman4/lib2@^1.0.1":
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/@ttestman4/lib2/-/lib2-1.0.1.tgz#7755dc07d4eadeae13b022bcbf6174edf240e0bd"
+  dependencies:
+    tslib "^1.7.1"
+
 "@types/jasmine@*", "@types/jasmine@~2.8.3":
   version "2.8.6"
   resolved "https://registry.yarnpkg.com/@types/jasmine/-/jasmine-2.8.6.tgz#14445b6a1613cf4e05dd61c3c3256d0e95c0421e"
